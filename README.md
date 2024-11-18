@@ -1,7 +1,4 @@
-JavaScript Roadmap: Level-Based Learning
-Level 1: JavaScript Fundamentals (Beginner)
-Objective: Get comfortable with JavaScript basics and understand core concepts.
-
+JavaScript Roadmap:
 Setup Your Environment:
 
 Install Node.js (to run JS outside the browser).
