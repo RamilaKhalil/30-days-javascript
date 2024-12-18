@@ -1,0 +1,12 @@
+.b-bt {
+    background-color : lightgreen ;
+    border : none;
+    padding : 5px ;
+    border-radius : 5px;
+}
+.w-bt{
+    background-color : lightblue ;
+    border : none;
+    padding : 5px ;
+    border-radius : 5px;
+}

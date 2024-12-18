@@ -1,0 +1,29 @@
+<!DOCTYPE 
+html
+>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+     <button class="b-bt" onclick= "bag++;
+     document.querySelector('.order').innerText=`your bag has ${bag}  items`;
+     " >add to bag</button>
+     <button class="w-bt" onclick="bag -=1;
+    document.querySelector('.order').innerText=`your bag has ${bag}  items`;
+    ">move to wishlist</button>
+     <button class="b-bt" onclick="bag +=2;
+   document.querySelector('.order').innerText=`your bag has ${bag}  items`;
+   ">add 1+1 sale item</button>
+<h1 class="order"></h1>
+    <script >
+    let bag = 0;
+    document.querySelector(".order").innerText=`your bag has ${bag}  items`;
+    </script>
+    
+  </body>
+</html>
